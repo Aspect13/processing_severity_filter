@@ -22,7 +22,7 @@ from pylon.core.tools import log  # pylint: disable=E0611,E0401
 from pylon.core.tools import module  # pylint: disable=E0611,E0401
 
 from .components import render_test_toggle
-from .rpc_worker import make_dusty_config, security_test_create_integration_validate
+from .rpc_worker import make_dusty_config
 
 
 class Module(module.ModuleModel):
