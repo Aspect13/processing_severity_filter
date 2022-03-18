@@ -47,7 +47,7 @@ class Module(module.ModuleModel):
             name=SECTION_NAME,
             integration_description='Manage processing',
             test_planner_description='Specify processing tools. You may also set processors in <a '
-                                     'href="/?chapter=Configuration&module=Integrations&page=all">Integrations</a> '
+                                     'href="/configuration/integrations">Integrations</a> '
         )
 
         self.context.rpc_manager.call.integrations_register(
